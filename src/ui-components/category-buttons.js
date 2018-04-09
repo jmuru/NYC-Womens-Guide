@@ -1,10 +1,8 @@
 import React  from 'react';
 
-const test = () => {console.log('hello world')}
-
-function categoryButtons({category, onClick}) {
+function categoryButtons({category}) {
     return (
-        <a onClick={onClick} href={'#'}>{category}</a>
+        <a href={'#'}>{category}</a>
     )
 }
 
